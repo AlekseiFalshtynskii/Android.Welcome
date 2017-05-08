@@ -15,7 +15,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.77"
-        android:contentDescription="@string/text_view_voice"
         android:gravity="center_horizontal|center"
         android:text="@string/welcome"
         android:textAlignment="center"
