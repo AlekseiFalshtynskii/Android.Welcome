@@ -7,13 +7,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.aleksei.welcome.MainActivity"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:baselineAligned="false">
 
     <TextView
         android:id="@+id/WelcomeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.77"
+        android:contentDescription="@string/text_view_voice"
         android:gravity="center_horizontal|center"
         android:text="@string/welcome"
         android:textAlignment="center"
@@ -23,5 +25,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bugImageView"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.15"
+        android:contentDescription="@string/deitel_logo"
+        app:srcCompat="@drawable/bug" />
 
 </LinearLayout>
